@@ -1,0 +1,45 @@
+.wrapper {
+  height: 150px;
+  width: var(--default-layout-header-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 var(--default-layout-header-padding);
+}
+
+// title
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 3.2rem;
+}
+.icon {
+  width: 4rem;
+  height: auto;
+  margin-right: 10px;
+}
+
+// action
+.action {
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+  gap: 10px;
+}
+
+.alert {
+  border-radius: 25%;
+}
+.bell-icon {
+  width: auto;
+  height: 2.5rem;
+  padding: 8px 10px;
+  background-color: #000000 0.08;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
